@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/upload.css"></link>
+    <link rel="stylesheet" type="text/css" href="../lib/bootstrap/bootstrap.min.css"></link>
+    <link rel="stylesheet" type="text/css" href="../lib/jfilestyle/jquery-filestyle.min.css"></link>
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+    <script type="text/javascript" src="../lib/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="../lib/jfilestyle/jquery-filestyle.min.js"></script>
+    <script charset="utf-8" type="text/javascript" src="../js/services/enums.js"></script>
+    <script type="text/javascript" src="../js/services/connections.js"></script>
+    <script type="text/javascript" src="../js/controllers/upload.js"></script>
+    <script>if (window.module) module = window.module;</script>
+    <title>Player</title>
+  </head>
+  <body style="margin:0px;">
+    <div style="margin:0px;">
+      <div id="logo">
+        <a href="../main.html" class="btn"><h4><b>Main</b></h4></a>
+      </div>
+    </div>
+    <div id="upload">
+      <div id="up">
+        <center>
+          <p><b><font size="6" face="Arial" color="white">Selecione um album (.zip)</font></b></p>
+          <input type="file" class="jfilestyle" id="album" accept=".zip"  data-buttonText='Carregar Album'/>
+          <br>
+          <a id="sendAlbum" href="#" class="btn btn-primary"> Enviar Album</a>
+          <br>
+          <br>
+        </center>
+      </div>
+    </div>
+  </body>
+</html>

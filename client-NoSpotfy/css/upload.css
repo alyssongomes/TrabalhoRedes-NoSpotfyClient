@@ -1,0 +1,18 @@
+#logo{
+  width: 100%;
+  height: 200px;
+  background-image: url('../img/spotfy.jpg');
+  background-size: 105% 270px;
+}
+
+
+#upload{
+  position: absolute;
+  width: 100%;
+  height: 445px;
+  background-color: #404040;
+}
+
+#up{
+  margin-top: 10%;
+}
