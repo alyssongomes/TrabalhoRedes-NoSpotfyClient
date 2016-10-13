@@ -2,7 +2,7 @@ var path = require('path');
 var fs   =  require('fs');
 
 var appDir = path.dirname(require.main.filename);
-var jsonFile =  fs.readFileSync(appDir + path.sep + "config.json");
+var jsonFile =  fs.readFileSync(process.cwd()+"/client-NoSpotfy/config.json");
 var json = JSON.parse(jsonFile);
 
 var HOST = json.server;
