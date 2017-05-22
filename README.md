@@ -1,4 +1,4 @@
-# TrabalhoRedes-NoSpotfyClient
+# TrabalhoRedes - NoSpotfy
 Sistema de Streaming de audio
 
 # Tecnologias utilizadas
